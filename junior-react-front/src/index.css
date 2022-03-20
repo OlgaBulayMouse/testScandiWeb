@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .category {
     position: relative;
     display: flex;
@@ -30,13 +47,11 @@
 .cartOnRight {
     position: absolute;
     right: 50px;
-    top: 30px;
     color: #43464E;
 }
 .vector {
     padding: 7px;
 }
-
 
 .greeN {
     position: absolute;
@@ -51,4 +66,41 @@
 .arow2 {
     position: relative;
     left: 4px;
+}
+
+.title {
+    font-size: 42px;
+    font-family: 'Raleway', sans-serif;
+    width: 400px;
+    margin-top: 120px;
+    margin-bottom: 100px;
+    margin-left: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    align-items: center;   
+}
+
+.product {
+    margin: 40px;
+}
+
+.inscription {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.name {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
 }
