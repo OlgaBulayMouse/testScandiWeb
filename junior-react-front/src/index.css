@@ -1,6 +1,54 @@
-
 .category {
-width: 1440px;
-height: 1513px;
-background: gray;
+    position: relative;
+    display: flex;
+    width: 1440px;
+    height: 1513px;
+    border: 1px solid;
+}
+
+.gender {
+    position: absolute;
+    list-style-type: none;
+    display: flex;
+}
+
+.sex {
+    font: Raleway;
+    font-weight: 600;
+    font-size: 16px;
+    color:#43464E;
+    margin: 30px;
+    
+}
+
+.green {
+    position: absolute;
+    margin: 30px;
+    left: 50%;
+}
+
+.cartOnRight {
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    color: #43464E;
+}
+.vector {
+    padding: 7px;
+}
+
+
+.greeN {
+    position: absolute;
+}
+
+.arow {
+    position: relative;
+    left: 8px;
+    top: 7px;
+}
+
+.arow2 {
+    position: relative;
+    left: 4px;
 }
