@@ -7,7 +7,13 @@ class TopPage extends React.Component {
     render() {
         return (
             <header>
-                <Menu />
+                <Menu 
+                onClickItem={(name) => {console.log(name)}}
+                items={[
+                    <div className="itemMenu">WOMEN</div>,
+                    <div className="itemMenu">MEN</div>,
+                    <div className="itemMenu">KIDS</div>,
+                ]}/>
                 <ArowGreen />
                 <CartOnRight />
             </header>
