@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-body {
+.wrapper {
     margin: 50px;
     height: 100%;
     display: flex;
@@ -59,7 +59,6 @@ body {
 
 .green {
     position: absolute;
-    margin: 30px;
     left: 50%;
 }
 

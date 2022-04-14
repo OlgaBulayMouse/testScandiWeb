@@ -8,15 +8,16 @@ class Category extends React.Component {
     render() {
         return (
             <div className="category">
-                <body>
+                <div className="wrapper">
                     <main>
                         <TopPage />
                         <Title />
                         <div className="container">
                             <Product />
+                           
                         </div>
                     </main>
-                </body>
+                </div>
             </div>
         )
     }
