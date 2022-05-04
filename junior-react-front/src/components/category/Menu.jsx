@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 class Menu extends React.Component {
     state = {
@@ -13,8 +13,8 @@ class Menu extends React.Component {
 
     render() {
         return (
-            <div className="ulGender">
-                <ul className="gender">
+            <div className='ulGender'>
+                <ul className='gender'>
                     {this.props.items.map((name, index) => (
                         <li
                             className={this.state.activeItem === index ? 'active' : 'sex'}

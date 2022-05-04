@@ -1,0 +1,27 @@
+
+
+
+# const GetProductsCertainCategory = gql`
+#     query {
+#       category {
+#         name
+#         products {
+#           id
+#           name
+#           prices {
+#             currency {
+#               symbol
+#             }
+#               amount
+#           }
+#         }
+#       }
+#    }
+# `;
+
+# client
+#   .query({
+#     query: GetProductsCertainCategory
+#   });
+
+export default GetProductsCertainCategory;
